@@ -8,6 +8,7 @@ public class ScreenDataSO : ScriptableObject
     // Player data
     [Header("Player Data")]
     public Vector3 playerPosition;
+    public Quaternion playerRotation;
     public int playerHealth;
 
 }
